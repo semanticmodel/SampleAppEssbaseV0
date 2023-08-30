@@ -1,0 +1,21 @@
+{
+  "initBlock" : {
+    "name" : "GlobalVariables",
+    "type" : "GLOBAL",
+    "variables" : [ {
+      "name" : "Variable_1",
+      "description" : "sample",
+      "value" : "'abc'"
+    }, {
+      "name" : "Variable_2",
+      "description" : "sample 2",
+      "value" : "'xyz'"
+    } ],
+    "runSchedule" : {
+      "interval" : 1,
+      "intervalUnit" : "HOURS",
+      "startingOn" : "2023-06-08 12:52:55.443"
+    },
+    "disable" : false
+  }
+}

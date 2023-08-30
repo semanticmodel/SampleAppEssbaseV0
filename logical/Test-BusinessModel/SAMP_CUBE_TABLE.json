@@ -1,0 +1,37 @@
+{
+  "logicalTable" : {
+    "name" : "SAMP_CUBE_TABLE",
+    "description" : "A transformed logical table",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Basic Measure",
+      "description" : "a  cube column without a specific columnType",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUBE_TABLE",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalCubeColumn:EssbaseDB.SampleEssbaseCatalog.SAMP_CUBE_TABLE.Basic Measure" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "EXTERNAL_AGGREGATION",
+        "dataIsDense" : false
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "SAMP_CUBE_TABLE",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalCubeTable:EssbaseDB.SampleEssbaseCatalog.SAMP_CUBE_TABLE" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}
