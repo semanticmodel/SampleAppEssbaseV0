@@ -32,6 +32,12 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Test-BusinessModel.Caffeinated",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
     } ]
   }
 }

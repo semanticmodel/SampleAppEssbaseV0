@@ -3,6 +3,7 @@
     "name" : "Measures",
     "description" : "A measure physical dimension",
     "type" : "DIMENSION",
+    "primaryKey" : [ "Measures - Member ID" ],
     "logicalColumns" : [ {
       "name" : "Measures - Default",
       "description" : "a  measure cube column with a  columnType as ATTRIBUTE and attributeHierarchy pointing to a hierarchy; No other columnType requires the attribute of attributeHierarchy.",
@@ -331,6 +332,7 @@
     } ],
     "hierarchyType" : "LEVEL_BASED",
     "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Gen1,Measures",
       "ragged" : true,
       "skipped" : false,
       "logicalLevels" : [ {

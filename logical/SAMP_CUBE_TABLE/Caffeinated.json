@@ -3,6 +3,7 @@
     "name" : "Caffeinated",
     "description" : "A simple physical dimension",
     "type" : "DIMENSION",
+    "primaryKey" : [ "Caffeinated - Member ID" ],
     "logicalColumns" : [ {
       "name" : "Caffeinated - Default",
       "description" : "a  cube column with a  columnType as ATTRIBUTE and attributeHierarchy pointing to a hierarchy; No other columnType requires the attribute of attributeHierarchy.",
@@ -207,6 +208,7 @@
     } ],
     "hierarchyType" : "LEVEL_BASED",
     "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Gen1,Caffeinated",
       "ragged" : true,
       "skipped" : false,
       "logicalLevels" : [ {

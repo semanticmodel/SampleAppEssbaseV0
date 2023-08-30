@@ -6,7 +6,7 @@
       "name" : "SampleApp_Lite_Xml",
       "description" : "SampleAppLite connection pool to XML datasource. This connection pool points the database to the location where physical XML files are stored. The location uses the value of an RPD variable : BI_EE_HOME.\r\nThis variable needs to be correctly set in order for the server to connect to the files.",
       "connection" : "'system'.'PRIVATE READ ONLY SMConnection'",
-      "remoteConnection" : true,
+      "remoteConnection" : false,
       "maxConnections" : 10,
       "requiresFullyQualifedTableNames" : false,
       "connectionTimeoutUnit" : "WHEN_QUERY_COMPLETES",

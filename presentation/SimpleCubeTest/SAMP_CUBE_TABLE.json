@@ -1,0 +1,9 @@
+{
+  "presentationTable" : {
+    "name" : "SAMP_CUBE_TABLE",
+    "presentationColumns" : [ {
+      "name" : "Basic Measure",
+      "sourceLogicalColumn" : "logicalColumn:Test-BusinessModel.SAMP_CUBE_TABLE.Basic Measure"
+    } ]
+  }
+}

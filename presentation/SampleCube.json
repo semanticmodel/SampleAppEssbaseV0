@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "SampleCube",
+    "sourceBusinessModel" : "businessModel:SAMP_CUBE_TABLE",
+    "tableOrder" : [ {
+      "name" : "presentationTable:SampleCube.Caffeinated"
+    }, {
+      "name" : "presentationTable:SampleCube.Measures"
+    }, {
+      "name" : "presentationTable:SampleCube.SAMP_CUBE_TABLE"
+    } ]
+  }
+}

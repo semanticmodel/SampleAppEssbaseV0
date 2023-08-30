@@ -1,0 +1,11 @@
+{
+  "subjectArea" : {
+    "name" : "SimpleCubeTest",
+    "sourceBusinessModel" : "businessModel:Test-BusinessModel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:SimpleCubeTest.SAMP_CUBE_TABLE"
+    }, {
+      "name" : "presentationTable:SimpleCubeTest.Caffeinated"
+    } ]
+  }
+}
